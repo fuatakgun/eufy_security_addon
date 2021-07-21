@@ -31,9 +31,9 @@
 	"COUNTRY": "US"
   },
   "schema": {
-    "USERNAME": "str",
+    "USERNAME": "email",
     "PASSWORD": "str",
-	"COUNTRY": "str"
+    "COUNTRY": "str"
   },
   "image": "bropat/eufy-security-ws"
 }
