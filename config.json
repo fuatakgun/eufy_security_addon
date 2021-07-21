@@ -1,0 +1,39 @@
+{
+  "name": "eufy_security_addon",
+  "version": "latest",
+  "slug": "eufy_security_addon",
+  "description": "eufy_security_addon add-on eufy security websocket",
+  "uart": true,
+  "url": "https://github.com/bropat/eufy-security-ws/tree/master/docker",
+  "startup": "application",
+  "services": [],
+  "arch": [
+    "aarch64",
+    "amd64",
+    "armhf",
+    "armv7",
+    "i386"
+  ],
+  "boot": "auto",
+  "ingress": false,
+  "panel_icon": "mdi:security-network",
+  "map": ["config"],
+  "legacy": true,
+  "ports": {
+    "3000/tcp": 3000
+  },
+  "ports_description": {
+    "3000/tcp": "Websocket listen port"
+  },
+  "options": {
+    "USERNAME": "email@address.com",
+    "PASSWORD": "password",
+	"COUNTRY": "US"
+  },
+  "schema": {
+    "USERNAME": "str",
+    "PASSWORD": "str",
+	"COUNTRY": "str"
+  },
+  "image": "bropat/eufy-security-ws"
+}
