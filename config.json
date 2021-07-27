@@ -35,5 +35,5 @@
     "PASSWORD": "str",
     "COUNTRY": "str"
   },
-  "image": "bropat/eufy-security-ws:0.3.3"
+  "image": "bropat/eufy-security-ws"
 }
