@@ -1,6 +1,6 @@
 {
   "name": "Eufy Security Add-on",
-  "version": "0.6.0",
+  "version": "0.6.0.1",
   "slug": "eufy_security_addon",
   "description": "eufy_security_addon add-on eufy security websocket",
   "uart": true,
@@ -27,14 +27,14 @@
   "options": {
     "USERNAME": "email@address.com",
     "PASSWORD": "password",
-    "COUNTRY": "US",
-    "EVENT_DURATION_SECONDS": 10
+	"COUNTRY": "US",
+	"EVENT_DURATION_SECONDS": 10
   },
   "schema": {
     "USERNAME": "email",
     "PASSWORD": "str",
     "COUNTRY": "str",
-    "EVENT_DURATION_SECONDS": "int(1,999)"
+	"EVENT_DURATION_SECONDS": "int(1,999)"
   },
   "image": "bropat/eufy-security-ws"
 }
