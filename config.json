@@ -27,12 +27,14 @@
   "options": {
     "USERNAME": "email@address.com",
     "PASSWORD": "password",
-	"COUNTRY": "US"
+    "COUNTRY": "US",
+    "EVENT_DURATION_SECONDS": 10
   },
   "schema": {
     "USERNAME": "email",
     "PASSWORD": "str",
-    "COUNTRY": "str"
+    "COUNTRY": "str",
+    "EVENT_DURATION_SECONDS": "int(1,999)"
   },
   "image": "bropat/eufy-security-ws"
 }
