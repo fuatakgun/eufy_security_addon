@@ -32,7 +32,7 @@
   },
   "schema": {
     "USERNAME": "email",
-    "PASSWORD": "str",
+    "PASSWORD": "password",
     "COUNTRY": "str",
 	"EVENT_DURATION_SECONDS": "int(1,999)"
   },
