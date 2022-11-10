@@ -28,12 +28,14 @@
     "USERNAME": "email@address.com",
     "PASSWORD": "password",
 	"COUNTRY": "US",
+	"TRUSTED_DEVICE_NAME": "DEVICENAME",
 	"EVENT_DURATION_SECONDS": 10
   },
   "schema": {
     "USERNAME": "email",
     "PASSWORD": "password",
     "COUNTRY": "str",
+	"TRUSTED_DEVICE_NAME": "str",
 	"EVENT_DURATION_SECONDS": "int(1,999)"
   },
   "image": "bropat/eufy-security-ws"
