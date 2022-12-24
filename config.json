@@ -1,6 +1,6 @@
 {
   "name": "Eufy Security Add-on",
-  "version": "1.1.0",
+  "version": "1.3.0",
   "slug": "eufy_security_addon",
   "description": "eufy_security_addon add-on eufy security websocket",
   "uart": true,
