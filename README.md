@@ -1,5 +1,1 @@
-# Eufy Security Add-on
-
- Required Add-On for eufy_security integration. Please use repository below to raise the issues.
- 
- https://github.com/fuatakgun/eufy_security
+This repository is deprecated and archived for tracking purposes. Please use this one: https://github.com/bropat/hassio-eufy-security-ws
